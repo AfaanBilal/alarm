@@ -32,7 +32,7 @@ type Alarm struct {
 
 func main() {
 	var alarms = [5]Alarm{
-		{time: Time{6, 40, 0}, label: "Zuhr"},
+		{time: Time{6, 40, 0}, label: "Fajr"},
 		{time: Time{13, 20, 0}, label: "Zuhr"},
 		{time: Time{16, 15, 0}, label: "Asr"},
 		{time: Time{17, 40, 0}, label: "Maghrib"},
